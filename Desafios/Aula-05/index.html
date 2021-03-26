@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AluraFlix 2.0</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">AluraFlix</h1>
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+        class="page-logo"
+        alt=""
+      />
+      <p class="page-subtitle">Qual seu filme preferido do universo Marvel?</p>
+      <div class="select-wrapper">
+        <select name="movies" id="movies">
+          <option value="0" disabled selected>Selecione</option>
+          <option value="1">Homem de Ferro</option>
+          <option value="2">O Incrível Hulk</option>
+          <option value="3">Homem de Ferro 2</option>
+          <option value="4">Thor</option>
+          <option value="5">Capitão América: O Primeiro Vingador</option>
+          <option value="6">Os Vingadores</option>
+          <option value="7">Homem de Ferro 3</option>
+          <option value="8">Thor: O Mundo Sombrio</option>
+          <option value="9">Capitão América 2: O Soldado Invernal</option>
+          <option value="10">Guardiões da Galáxia</option>
+          <option value="11">Vingadores: A Era de Ultron</option>
+          <option value="12">Homem-Formiga</option>
+          <option value="13">Capitão América: Guerra Civil</option>
+          <option value="14">Doutor Estranho</option>
+          <option value="15">Guardiões da Galáxia Vol. 2</option>
+          <option value="16">Homem-Aranha: De Volta ao Lar</option>
+          <option value="17">Thor: Ragnarok</option>
+          <option value="18">Pantera Negra</option>
+          <option value="19">Vingadores: Guerra Infinita</option>
+          <option value="20">Homem-Formiga e a Vespa</option>
+          <option value="21">Capitã Marvel</option>
+          <option value="22">Vingadores: Ultimato</option>
+          <option value="23">Homem-Aranha: Longe de Casa</option>
+        </select>
+        <div class="button">
+          <button onclick="addMovie()">Escolher Filme</button>
+        </div>
+      </div>
+    </div>
+    <div id="movieList"></div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+      />
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>
